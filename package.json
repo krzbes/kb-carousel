@@ -1,6 +1,6 @@
 {
-  "name": "your-plugin-name",
-  "description": "Your plugin description",
+  "name": "kb-carousel",
+  "description": "My own implementation of <a href=\"https://owlcarousel2.github.io/OwlCarousel2/\">Owl Carousel</a> plugin for WordPress",
   "version": "1.0.0",
   "dependencies": {
     "owl.carousel": "2.3.4"
