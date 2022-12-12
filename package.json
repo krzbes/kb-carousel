@@ -1,0 +1,8 @@
+{
+  "name": "your-plugin-name",
+  "description": "Your plugin description",
+  "version": "1.0.0",
+  "dependencies": {
+    "owl.carousel": "2.3.4"
+  }
+}
