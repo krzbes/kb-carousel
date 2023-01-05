@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "kb/carousel",
+	"version": "0.1.0",
+	"title": "kbCarousel",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Owl carousel implementation",
+	"supports": {
+		"html": true
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"posts": {
+			"type": "array",
+			"default": []
+		}
+	}
+}
