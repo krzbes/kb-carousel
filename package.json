@@ -1,23 +1,26 @@
 {
-  "name": "kb-carousel",
-  "description": "My own implementation of <a href=\"https://owlcarousel2.github.io/OwlCarousel2/\">Owl Carousel</a> plugin for WordPress",
-  "version": "1.0.0",
-  "dependencies": {
-    "owl.carousel": "2.3.4"
-  },
-  "license": "GPL-2.0-or-later",
-  "main": "build/index.js",
-  "scripts": {
-    "build": "wp-scripts build",
-    "format": "wp-scripts format",
-    "lint:css": "wp-scripts lint-style",
-    "lint:js": "wp-scripts lint-js",
-    "packages-update": "wp-scripts packages-update",
-    "plugin-zip": "wp-scripts plugin-zip",
-    "start": "wp-scripts start"
-  },
-  "devDependencies": {
-    "@wordpress/scripts": "^24.6.0",
-    "owl.carousel": "2.3.4"
-  }
+	"name": "kb-carousel",
+	"description": "My own implementation of <a href=\"https://owlcarousel2.github.io/OwlCarousel2/\">Owl Carousel</a> plugin for WordPress",
+	"version": "1.0.0",
+	"dependencies": {
+		"@wordpress/data": "^8.1.0",
+		"axios": "^1.2.2",
+		"owl.carousel": "2.3.4",
+		"react": "^18.2.0"
+	},
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^25.1.0",
+		"owl.carousel": "2.3.4"
+	}
 }
